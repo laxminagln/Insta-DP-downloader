@@ -10,7 +10,7 @@ url_p = url + url_user                                          #url of instagra
 driver.get(url_p)                                               #go to that webpage
 
 try:
-   image=driver.find_element_by_xpath('//img[@class="_6q-tv"]')  #finds the profile pic src
+   image=driver.find_element_by_xpath('//img[@class="_6q-tv"]') #finds the profile pic src
 except:
    image=driver.find_element_by_xpath('//img[@class="be6sR"]')
   
