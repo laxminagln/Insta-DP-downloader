@@ -4,7 +4,7 @@ Run the code and download the profile picture from an Instagram account
 ```python
 from selenium import webdriver
 ```
-- url
+- urllib
 ```python
-import
+import urllib.request
 ```
